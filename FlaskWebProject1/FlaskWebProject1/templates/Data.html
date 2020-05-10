@@ -1,0 +1,55 @@
+﻿{% extends "layout.html" %}
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+
+
+
+
+    <h2>Data used in this project</h2>
+
+<h3>Data Table</h3>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<table>
+
+
+    <tr>
+        <th> Dataset Name (link to dataset)</th>
+        <th> Info </th>
+        <th> Dataset Page</th>
+    </tr>
+    <tr>
+        <td> <a href="https://www.kaggle.com/harshitagpt/us-presidents">US Presidents </a></td>
+        <td> A csv that contains info of all US presidents, their term of service etc.</td>
+        <td><div class="col-md-5 my-grid-borders"><a href="{{ url_for('usPresidents') }}">US Presidents</a></div></td>
+    </tr>
+    <tr>
+        <td> <a href="https://www.kaggle.com/sohier/state-election-results-1971-2012">State Elections </a></td>
+        <td> This dataset contains results of general elections to the lower house of the state legislatures in the United States over the last fifty years, up to 2012</td>
+        <td><div class="col-md-5 my-grid-borders"><a href="{{ url_for('stateElections') }}">State Elections</a></div></td>
+    </tr>
+    <tr>
+        <td> <a href="https://www.kaggle.com/murderaccountability/homicide-reports">Homicide Reports, 1980-2014 </a></td>
+        <td> Dataset which has info on all reported homicides in the United States from 1980-2014</td>
+        <td> <div class="col-md-5 my-grid-borders"><a href="{{ url_for('homicides') }}">Homicides</a></div></td>
+    </tr>
+    <tr>
+        <td> <a href="https://www.kaggle.com/zusmani/us-mass-shootings-last-50-years">US Mass Shootings of last 50 Years (1966-2017) </a></td>
+        <td> Dataset which has info on all mass shootings in the United States from 1966 to 2017</td>
+        <td> <div class="col-md-5 my-grid-borders"><a href="{{ url_for('massShootings') }}">Mass Shootings</a></div></td>
+    </tr>
+
+
+
+
+</table> 
+        
+        
+        
+  {% endblock %}

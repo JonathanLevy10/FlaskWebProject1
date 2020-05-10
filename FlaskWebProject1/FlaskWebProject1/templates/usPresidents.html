@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+﻿{% extends "layout.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+
+
+<h2>{{ message }}</h2>
+
+<p>This dataset is a csv file that has all the US Presidents. Here are what some of the colums signify in the dataset: <p>
+     <p>'start' - When the president got elected</p>
+
+     <p>'end' - When the term ended</p>
+
+     <p>'president' - Who was the president</p>
+
+     <p>'prior' - What was he before becoming president</p>
+
+     <p>'party' - The supporting party</p>
+
+     <p>'vice' - The Vice President during the term</p>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="row my-grid-borders">
+        <div class="col-md-5 my-grid-borders">
+            <form method="post">
+                {{ form1.csrf_token }}
+                <input class="btn btn-success" type="submit" name="action" value="Expand">
+            </form>
+        </div>
+        <div class="col-md-5 my-grid-borders">
+            <form method="post">
+                {{ form2.csrf_token }}
+                <input class="btn btn-danger" type="submit" name="action" value="Collapse">
+            </form>
+        </div>
+    </div>
+    <div class="row my-grid-borders">
+        {{ raw_data_table | safe}}
+    </div>
+
+</body>
+</html>
+{% endblock %}

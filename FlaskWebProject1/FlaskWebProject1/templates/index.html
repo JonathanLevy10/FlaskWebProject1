@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Jonathan's Project</h1>
+    <p class="lead">The goal of my project is to build a website about if/how political party choices effect lifesyle that is user friendly.</p>
+    <p><a class="btn btn-primary btn-large" href="{{ url_for('about') }}"> About Page &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Building my Project with Flask</h2>
+        <p>
+            This project is built on flask. Flask is an API of Python that allows to build up web-applications. To learn more about flask, click Learn More
+        </p>
+        <p><a class="btn btn-default" href="http://flask.pocoo.org/docs/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Contact me</h2>
+        <p> I will be happy to answer any questions regarding my project and take any suggestions/comments. To contact me click on Contact</p>
+        <p><a class="btn btn-default" href="{{ url_for('contact') }}"> Contact &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>What is the query page?</h2>
+        <p>The query page helps explore the mass shootings dataset in a clearer way and should be used to gain insight on the topic. Simply choose a category and hit submit and it will display a graph with the amount of mass shootings in the category.</p>
+        <p><a class="btn btn-default" href="{{ url_for('query') }}"> Query Page &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}

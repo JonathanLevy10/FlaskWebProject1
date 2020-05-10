@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+﻿{% extends "layout.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+
+
+<h2>{{ message }}</h2>
+<p>This dataset has info on all mass shootings in the United States from 1966 to 2017. Here is what all the colums signify in the data set.</p>
+
+
+<p>Incident Area- where the incident took place</p>
+
+<p>Open/Close Location- Inside a building or open space</p>
+
+<p>Target- possible target audience or company</p>
+
+<p>Cause- Terrorism, Hate Crime, for no obvious reason etc.</p>
+
+<p>Policeman Killed- How many on duty officers got killed</p>
+
+<p>Age- age of the shooter</p>
+
+<p>Employed- Yes/No</p>
+
+<p>Employed at- Employer Name</p>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="row my-grid-borders">
+        <div class="col-md-5 my-grid-borders">
+            <form method="post">
+                {{ form1.csrf_token }}
+                <input class="btn btn-success" type="submit" name="action" value="Expand">
+            </form>
+        </div>
+        <div class="col-md-5 my-grid-borders">
+            <form method="post">
+                {{ form2.csrf_token }}
+                <input class="btn btn-danger" type="submit" name="action" value="Collapse">
+            </form>
+        </div>
+    </div>
+    <div class="row my-grid-borders">
+        {{ raw_data_table | safe}}
+    </div>
+
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,100 @@
+Record ID,Agency Code,Agency Name,Agency Type,City,State,Year,Month,Incident,Crime Type,Crime Solved,Victim Sex,Victim Age,Victim Race,Victim Ethnicity,Perpetrator Sex,Perpetrator Age,Perpetrator Race,Relationship,Weapon,Victim Count,Perpetrator Count,Record Source
+1,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,January,1,Murder or Manslaughter,Yes,Male,14,Native American/Alaska Native,Unknown,Male,15,Native American/Alaska Native,Acquaintance,Blunt Object,0,0,FBI
+2,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,March,1,Murder or Manslaughter,Yes,Male,43,White,Unknown,Male,42,White,Acquaintance,Strangulation,0,0,FBI
+3,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,March,2,Murder or Manslaughter,No,Female,30,Native American/Alaska Native,Unknown,Unknown,0,Unknown,Unknown,Unknown,0,0,FBI
+4,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,April,1,Murder or Manslaughter,Yes,Male,43,White,Unknown,Male,42,White,Acquaintance,Strangulation,0,0,FBI
+5,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,April,2,Murder or Manslaughter,No,Female,30,Native American/Alaska Native,Unknown,Unknown,0,Unknown,Unknown,Unknown,0,1,FBI
+6,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,May,1,Murder or Manslaughter,Yes,Male,30,White,Unknown,Male,36,White,Acquaintance,Rifle,0,0,FBI
+7,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,May,2,Murder or Manslaughter,Yes,Female,42,Native American/Alaska Native,Unknown,Male,27,Black,Wife,Knife,0,0,FBI
+8,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,June,1,Murder or Manslaughter,Yes,Female,99,White,Unknown,Male,35,White,Wife,Knife,0,0,FBI
+9,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,June,2,Murder or Manslaughter,No,Male,32,White,Unknown,Unknown,0,Unknown,Unknown,Firearm,0,0,FBI
+10,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,June,3,Murder or Manslaughter,Yes,Male,38,White,Unknown,Male,40,Unknown,Unknown,Firearm,0,1,FBI
+11,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,July,1,Murder or Manslaughter,No,Male,36,Native American/Alaska Native,Unknown,Unknown,0,Unknown,Unknown,Unknown,0,1,FBI
+12,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,July,2,Murder or Manslaughter,Yes,Male,20,White,Unknown,Male,49,White,Stranger,Shotgun,0,0,FBI
+13,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,July,3,Murder or Manslaughter,Yes,Female,36,Black,Unknown,Male,39,Black,Girlfriend,Blunt Object,0,0,FBI
+14,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,August,1,Murder or Manslaughter,Yes,Male,20,Native American/Alaska Native,Unknown,Male,49,White,Unknown,Fall,0,0,FBI
+15,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,August,2,Murder or Manslaughter,No,Male,48,White,Unknown,Unknown,0,Unknown,Unknown,Handgun,0,0,FBI
+16,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,August,3,Murder or Manslaughter,Yes,Male,31,Black,Unknown,Female,29,Black,Ex-Husband,Handgun,0,0,FBI
+17,AK00101,Anchorage,Municipal Police,Anchorage,Alaska,1980,December,1,Murder or Manslaughter,Yes,Male,16,Unknown,Unknown,Male,19,Unknown,Acquaintance,Knife,0,0,FBI
+18,AK00103,Juneau,Municipal Police,Juneau,Alaska,1980,November,1,Murder or Manslaughter,Yes,Male,33,Native American/Alaska Native,Unknown,Male,23,Native American/Alaska Native,Brother,Blunt Object,0,1,FBI
+19,AK00106,Nome,Municipal Police,Nome,Alaska,1980,June,1,Murder or Manslaughter,Yes,Male,27,Native American/Alaska Native,Unknown,Male,33,Native American/Alaska Native,Acquaintance,Handgun,0,0,FBI
+20,AK00113,Bethel,Municipal Police,Bethel,Alaska,1980,February,1,Murder or Manslaughter,Yes,Male,33,Native American/Alaska Native,Unknown,Male,35,Native American/Alaska Native,Brother,Handgun,0,0,FBI
+21,AK00118,North Slope Borough,County Police,North Slope,Alaska,1980,August,1,Murder or Manslaughter,Yes,Female,31,Unknown,Unknown,Male,29,Unknown,Stepdaughter,Rifle,2,0,FBI
+22,AK00118,North Slope Borough,County Police,North Slope,Alaska,1980,August,1,Murder or Manslaughter,Yes,Male,21,Unknown,Unknown,Male,29,Unknown,Stepdaughter,Rifle,2,0,FBI
+23,AK00118,North Slope Borough,County Police,North Slope,Alaska,1980,June,1,Murder or Manslaughter,Yes,Male,60,Unknown,Unknown,Male,26,Unknown,Acquaintance,Knife,0,0,FBI
+24,AK00118,North Slope Borough,County Police,North Slope,Alaska,1980,July,1,Manslaughter by Negligence,Yes,Female,40,Unknown,Unknown,Male,41,Unknown,Wife,Blunt Object,0,0,FBI
+25,AK00118,North Slope Borough,County Police,North Slope,Alaska,1980,August,1,Murder or Manslaughter,Yes,Female,16,Unknown,Unknown,Male,29,Unknown,Stepdaughter,Rifle,2,0,FBI
+26,AK00123,Kenai,Municipal Police,Kenai Peninsula,Alaska,1980,February,1,Murder or Manslaughter,Yes,Female,36,White,Unknown,Male,42,White,Wife,Handgun,0,0,FBI
+27,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,February,1,Murder or Manslaughter,No,Male,27,Black,Unknown,Unknown,0,Unknown,Unknown,Handgun,0,0,FBI
+28,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,February,2,Murder or Manslaughter,Yes,Male,31,Native American/Alaska Native,Unknown,Female,28,Native American/Alaska Native,Husband,Handgun,0,0,FBI
+29,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,February,3,Murder or Manslaughter,Yes,Male,27,Native American/Alaska Native,Unknown,Female,36,Native American/Alaska Native,Brother,Rifle,0,0,FBI
+30,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,April,1,Murder or Manslaughter,Yes,Male,18,Unknown,Unknown,Male,61,Native American/Alaska Native,Unknown,Shotgun,0,0,FBI
+31,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,May,1,Murder or Manslaughter,Yes,Male,27,White,Unknown,Male,25,White,Brother,Rifle,0,0,FBI
+32,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,June,1,Manslaughter by Negligence,Yes,Female,8,Asian/Pacific Islander,Unknown,Male,7,Asian/Pacific Islander,Sister,Rifle,0,0,FBI
+33,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,July,1,Murder or Manslaughter,No,Male,25,White,Unknown,Unknown,0,Unknown,Unknown,Unknown,0,0,FBI
+34,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,July,2,Murder or Manslaughter,No,Male,24,Native American/Alaska Native,Unknown,Unknown,0,Unknown,Unknown,Unknown,0,0,FBI
+35,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,July,3,Murder or Manslaughter,No,Male,33,White,Unknown,Unknown,0,Unknown,Unknown,Firearm,0,0,FBI
+36,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,August,1,Murder or Manslaughter,Yes,Male,21,Native American/Alaska Native,Unknown,Male,17,Native American/Alaska Native,Unknown,Rifle,0,0,FBI
+37,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,August,2,Murder or Manslaughter,Yes,Female,46,Native American/Alaska Native,Unknown,Male,34,White,Unknown,Rifle,0,0,FBI
+38,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,October,1,Murder or Manslaughter,Yes,Male,23,Native American/Alaska Native,Unknown,Male,28,Native American/Alaska Native,Acquaintance,Rifle,0,0,FBI
+39,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,October,2,Murder or Manslaughter,No,Female,22,White,Unknown,Unknown,0,Unknown,Unknown,Firearm,0,0,FBI
+40,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,October,3,Manslaughter by Negligence,Yes,Male,45,White,Unknown,Male,49,White,Acquaintance,Rifle,0,0,FBI
+41,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,October,4,Manslaughter by Negligence,Yes,Male,21,White,Unknown,Male,21,White,Friend,Rifle,0,0,FBI
+42,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,November,1,Murder or Manslaughter,Yes,Male,26,White,Unknown,Male,43,White,Friend,Handgun,0,0,FBI
+43,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,November,2,Murder or Manslaughter,Yes,Male,25,Native American/Alaska Native,Unknown,Male,42,Native American/Alaska Native,Family,Rifle,0,0,FBI
+44,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,November,3,Manslaughter by Negligence,Yes,Female,40,White,Unknown,Male,36,White,Friend,Rifle,0,0,FBI
+45,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,November,4,Manslaughter by Negligence,Yes,Female,26,Native American/Alaska Native,Not Hispanic,Male,26,Native American/Alaska Native,Wife,Drowning,0,0,FBI
+46,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,December,1,Murder or Manslaughter,Yes,Male,23,Native American/Alaska Native,Unknown,Male,23,Native American/Alaska Native,Friend,Knife,0,0,FBI
+47,AKASP00,Alaska State Police,State Police,Juneau,Alaska,1980,December,2,Manslaughter by Negligence,Yes,Male,26,Native American/Alaska Native,Unknown,Female,27,Native American/Alaska Native,Husband,Rifle,0,0,FBI
+48,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,February,1,Murder or Manslaughter,Yes,Male,58,Black,Unknown,Male,43,Black,Neighbor,Rifle,0,0,FBI
+49,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,March,1,Murder or Manslaughter,Yes,Male,43,White,Unknown,Female,38,White,Husband,Shotgun,0,0,FBI
+50,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,April,1,Murder or Manslaughter,Yes,Male,26,Black,Unknown,Male,66,Black,Acquaintance,Handgun,0,0,FBI
+51,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,May,1,Murder or Manslaughter,Yes,Male,17,White,Unknown,Male,40,White,Stranger,Handgun,0,0,FBI
+52,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,June,1,Murder or Manslaughter,Yes,Male,24,White,Unknown,Female,23,White,Husband,Handgun,0,0,FBI
+53,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,July,1,Murder or Manslaughter,Yes,Male,23,Black,Not Hispanic,Male,32,Black,Acquaintance,Handgun,0,0,FBI
+54,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,July,2,Murder or Manslaughter,Yes,Male,42,White,Not Hispanic,Female,40,White,Husband,Handgun,0,0,FBI
+55,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,July,3,Murder or Manslaughter,Yes,Male,33,Black,Not Hispanic,Male,26,Black,Acquaintance,Handgun,0,1,FBI
+56,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,August,1,Murder or Manslaughter,No,Male,29,White,Unknown,Unknown,0,Unknown,Unknown,Firearm,0,1,FBI
+57,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,August,2,Murder or Manslaughter,Yes,Female,41,White,Unknown,Male,37,White,Acquaintance,Handgun,0,0,FBI
+58,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,August,3,Murder or Manslaughter,Yes,Male,68,Black,Unknown,Male,22,Black,Stranger,Handgun,0,2,FBI
+59,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,September,41,Murder or Manslaughter,Yes,Male,46,White,Not Hispanic,Male,22,White,Father,Rifle,0,0,FBI
+60,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,October,1,Murder or Manslaughter,No,Male,23,White,Unknown,Unknown,0,Unknown,Unknown,Handgun,0,1,FBI
+61,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,November,1,Manslaughter by Negligence,Yes,Male,13,White,Not Hispanic,Male,15,White,Friend,Shotgun,0,0,FBI
+62,AL00100,Jefferson,Sheriff,Jefferson,Alabama,1980,December,1,Murder or Manslaughter,Yes,Male,18,Black,Unknown,Male,38,Black,Stranger,Handgun,0,0,FBI
+63,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,February,1,Murder or Manslaughter,Yes,Male,31,Black,Unknown,Male,43,Black,Acquaintance,Handgun,0,0,FBI
+64,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,March,1,Murder or Manslaughter,Yes,Female,35,Black,Not Hispanic,Male,38,Black,Acquaintance,Handgun,0,0,FBI
+65,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,March,2,Murder or Manslaughter,Yes,Male,24,Black,Not Hispanic,Male,30,Black,In-Law,Knife,0,0,FBI
+66,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,April,1,Murder or Manslaughter,Yes,Male,26,Black,Not Hispanic,Female,24,Black,Husband,Handgun,0,0,FBI
+67,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,April,2,Murder or Manslaughter,Yes,Male,44,Black,Not Hispanic,Female,23,Black,Husband,Handgun,0,0,FBI
+68,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,June,1,Murder or Manslaughter,Yes,Male,54,Black,Not Hispanic,Male,28,Black,Acquaintance,Shotgun,0,0,FBI
+69,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,June,2,Murder or Manslaughter,Yes,Male,27,Black,Not Hispanic,Male,25,Black,Brother,Handgun,0,0,FBI
+70,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,July,1,Murder or Manslaughter,Yes,Female,23,Black,Not Hispanic,Male,26,Black,Wife,Handgun,0,0,FBI
+71,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,July,2,Murder or Manslaughter,Yes,Male,33,Black,Not Hispanic,Male,65,Black,Acquaintance,Knife,0,0,FBI
+72,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,October,1,Murder or Manslaughter,Yes,Male,20,Black,Not Hispanic,Male,24,Black,Acquaintance,Knife,0,0,FBI
+73,AL00101,Bessemer,Municipal Police,Jefferson,Alabama,1980,October,2,Murder or Manslaughter,Yes,Male,27,White,Not Hispanic,Male,25,White,Acquaintance,Handgun,0,0,FBI
+74,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,1,Murder or Manslaughter,Yes,Male,31,Black,Unknown,Female,19,Black,Acquaintance,Knife,0,0,FBI
+75,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,2,Murder or Manslaughter,Yes,Male,45,Black,Unknown,Female,51,Black,Husband,Knife,0,0,FBI
+76,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,3,Murder or Manslaughter,Yes,Male,37,Black,Unknown,Female,60,Black,Son,Handgun,0,0,FBI
+77,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,4,Murder or Manslaughter,Yes,Female,25,Black,Unknown,Male,43,Black,Girlfriend,Handgun,0,0,FBI
+78,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,5,Murder or Manslaughter,Yes,Male,35,Black,Unknown,Male,30,Black,Acquaintance,Knife,0,0,FBI
+79,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,6,Murder or Manslaughter,Yes,Female,35,Black,Unknown,Male,35,Black,Acquaintance,Handgun,0,0,FBI
+80,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,7,Murder or Manslaughter,Yes,Male,35,Black,Unknown,Male,30,White,Stranger,Handgun,0,0,FBI
+81,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,8,Murder or Manslaughter,Yes,Female,45,Black,Unknown,Male,45,Black,Acquaintance,Handgun,0,0,FBI
+82,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,9,Murder or Manslaughter,Yes,Male,22,White,Unknown,Male,19,White,Stranger,Shotgun,0,0,FBI
+83,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,10,Murder or Manslaughter,Yes,Male,38,Black,Unknown,Male,45,Black,Acquaintance,Handgun,0,0,FBI
+84,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,January,11,Murder or Manslaughter,Yes,Male,51,Black,Unknown,Male,22,Black,Acquaintance,Knife,0,0,FBI
+85,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,February,1,Murder or Manslaughter,Yes,Male,24,Black,Unknown,Male,30,Black,Acquaintance,Handgun,0,0,FBI
+86,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,February,2,Murder or Manslaughter,Yes,Female,44,Black,Unknown,Male,64,Black,Acquaintance,Knife,0,0,FBI
+87,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,February,3,Murder or Manslaughter,Yes,Male,30,Black,Unknown,Female,17,Black,Acquaintance,Shotgun,0,0,FBI
+88,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,February,4,Murder or Manslaughter,Yes,Male,22,Black,Unknown,Female,21,Black,Husband,Knife,0,0,FBI
+89,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,February,5,Murder or Manslaughter,Yes,Male,30,White,Unknown,Male,32,White,Acquaintance,Knife,0,0,FBI
+90,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,February,6,Murder or Manslaughter,Yes,Female,46,Black,Unknown,Male,49,Black,Wife,Knife,0,0,FBI
+91,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,February,7,Murder or Manslaughter,Yes,Female,90,Black,Unknown,Male,17,Black,Acquaintance,Knife,0,0,FBI
+92,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,March,1,Murder or Manslaughter,Yes,Male,50,Black,Not Hispanic,Female,43,Black,Husband,Handgun,0,0,FBI
+93,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,March,2,Murder or Manslaughter,Yes,Female,20,Black,Not Hispanic,Female,17,Black,Family,Shotgun,0,0,FBI
+94,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,March,3,Murder or Manslaughter,Yes,Male,40,Black,Not Hispanic,Male,33,Black,Acquaintance,Handgun,0,0,FBI
+95,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,March,4,Murder or Manslaughter,Yes,Male,24,Black,Not Hispanic,Female,30,Black,Husband,Handgun,0,0,FBI
+96,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,March,5,Murder or Manslaughter,No,Male,30,Black,Not Hispanic,Unknown,0,Unknown,Unknown,Blunt Object,0,0,FBI
+97,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,March,6,Murder or Manslaughter,Yes,Male,38,Black,Not Hispanic,Male,30,Black,Stranger,Handgun,0,0,FBI
+98,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,March,7,Murder or Manslaughter,Yes,Male,23,Black,Not Hispanic,Male,30,White,Stranger,Handgun,0,0,FBI
+99,AL00102,Birmingham,Municipal Police,Jefferson,Alabama,1980,April,1,Murder or Manslaughter,Yes,Female,20,Black,Not Hispanic,Male,18,Black,Acquaintance,Handgun,0,0,FBI

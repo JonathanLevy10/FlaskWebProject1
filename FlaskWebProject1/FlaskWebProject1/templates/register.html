@@ -1,0 +1,84 @@
+﻿﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+
+<form method=post>
+    {{ form.csrf }}
+    {{ form.csrf_token }}
+
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                {{ form.firstname.label }}
+                {{ form.firstname(class_="form-control") }}
+
+                {% if form.firstname.errors %}
+                <ul class="text-danger">{% for error in form.firstname.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+                {{ form.lastname.label }}
+                {{ form.lastname(class_="form-control") }}
+
+                {% if form.lastname.errors %}
+                <ul class="text-danger">{% for error in form.lastname.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        {{ form.phonenumber.label }}
+        {{ form.phonenumber(class_="form-control") }}
+
+        {% if form.phonenumber.errors %}
+        <ul class="text-danger">{% for error in form.phonenumber.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+        {% endif %}
+    </div>
+
+    <div class="form-group">
+        {{ form.emailaddress.label }}
+        {{ form.emailaddress(class_="form-control") }}
+
+        {% if form.emailaddress.errors %}
+        <ul class="text-danger">{% for error in form.emailaddress.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+        {% endif %}
+    </div>
+
+    <div class="form-group">
+        {{ form.username.label }}
+        {{ form.username(class_="form-control") }}
+
+        {% if form.username.errors %}
+        <ul class="text-danger">{% for error in form.username.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+        {% endif %}
+    </div>
+
+    <div class="form-group">
+        {{ form.password.label }}
+        {{ form.password(class_="form-control") }}
+
+        {% if form.password.errors %}
+        <ul class="text-danger">{% for error in form.password.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+        {% endif %}
+    </div>
+
+    <div class="form-group">
+        <input class="btn btn-info" type="submit" value="Register">
+        <span>(<a href="{{ url_for('login') }}">Login</a>)</span>
+    </div>
+</form>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for message in messages %}
+<p class="text-danger">{{ message[1] }}</p>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+
+{% endblock %}
