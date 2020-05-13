@@ -10,7 +10,8 @@
 
     <div class="row">
         <div class="col">
-            <div class="form-group">
+            <!-- These divs each check that there are no errors in inforamation entered by the user -->
+            <div class="form-group"> 
                 {{ form.firstname.label }}
                 {{ form.firstname(class_="form-control") }}
 
@@ -66,7 +67,7 @@
         <ul class="text-danger">{% for error in form.password.errors %}<li>{{ error }}</li>{% endfor %}</ul>
         {% endif %}
     </div>
-
+    <!-- If the user gets to this without error, the register will go through -->
     <div class="form-group">
         <input class="btn btn-info" type="submit" value="Register">
         <span>(<a href="{{ url_for('login') }}">Login</a>)</span>

@@ -9,8 +9,9 @@
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
 </head>
 
-<body>
+<body><!-- This -->
     <div class="navbar navbar-inverse navbar-fixed-top">
+        <!-- This div will built my navigation bar-->
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,7 +22,7 @@
                 <a href="/" class="navbar-brand">Jonathan Levy</a>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav"><!-- These next few lines add all the pages to the nav bar and links them to the pages -->
                     <li><a href="{{ url_for('home') }}">Home</a></li>
                     <li><a href="{{ url_for('about') }}">About</a></li>
                     <li><a href="{{ url_for('Data') }}">Data</a></li>
@@ -37,7 +38,7 @@
         {% block content %}{% endblock %}
         <hr />
         <footer>
-            <p>&copy; {{ year }} - My Flask Application</p>
+            <p>&copy; {{ year }} - Jonathan Levy</p>
         </footer>
     </div>
 

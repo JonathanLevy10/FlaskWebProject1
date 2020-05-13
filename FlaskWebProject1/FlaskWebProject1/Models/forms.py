@@ -1,3 +1,4 @@
+#Imports
 from datetime import datetime
 
 from flask_wtf import FlaskForm
@@ -12,7 +13,7 @@ from wtforms.validators import InputRequired
 
 
 
-
+#classes for expand and collapse
 class ExpandForm(FlaskForm):
     submit1 = SubmitField('Expand')
     name="Expand" 
@@ -24,13 +25,8 @@ class CollapseForm(FlaskForm):
     value="Collapse"
 
 
-class SingleDATASETForm(FlaskForm):#instead of SinglePresidentForm
-    president = SelectField('President' , validators = [DataRequired] , choices=[('usPresidents', 'USPresidents'), ('stateElections', 'StateElections'), ('homicides', 'Homicides') , ('massShootings', 'MassShootings')])
-    start_date = DateField('Start Date' , format='%Y-%m-%d' , validators = [DataRequired])
-    end_date = DateField('End Date' , format='%Y-%m-%d' , validators = [DataRequired])
-    kind = SelectField('Chart Kind' , validators = [DataRequired] , choices=[('line', 'line'), ('bar', 'bar')])
-    subnmit = SubmitField('הצג')
 
+    #class for register also makes sure that all data is submited by user.
 class RegisterFormStructure(FlaskForm):
     firstname = StringField('First Name', validators = [DataRequired])
     lastname = StringField('Last Name', validators = [DataRequired])
@@ -39,13 +35,13 @@ class RegisterFormStructure(FlaskForm):
     username = StringField('Username', validators = [DataRequired])
     password = PasswordField('Password', validators = [DataRequired, Length(8)])
     submit = SubmitField('Register')
-
+    #class for log in also makes sure that all data is submited by user.
 class LoginFormStructure(FlaskForm):
     username = StringField('Username', validators = [DataRequired])
     password = PasswordField('Password', validators = [DataRequired])
     submit = SubmitField('Login')
 
-
+    #class that submites choice of category for query
 class QueryForm(FlaskForm):
     category = SelectField('Category', validators = [DataRequired])
     submit = SubmitField('Query')

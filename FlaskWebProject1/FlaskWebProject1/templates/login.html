@@ -3,7 +3,7 @@
 {% block content %}
 
 <h2>{{ title }}</h2>
-
+<!-- Checks to see if user credentials have been registered, and if not gives them and error message-->
 <form method=post>
     {{ form.csrf }}
     {{ form.csrf_token }}
@@ -22,6 +22,7 @@
         {% endif %}
     </div>
     <div class="form-group">
+        <!-- Submits log in and redirects to register-->
         <input class="btn btn-info" type="submit" value="Login">
         <span>(<a href="{{ url_for('register') }}">Register</a>)</span>
     </div>

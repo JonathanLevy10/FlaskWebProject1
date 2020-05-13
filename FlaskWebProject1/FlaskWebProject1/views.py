@@ -1,7 +1,7 @@
 """
 Routes and views for the flask application.
 """
-
+#Here I import everything that I need for the python programming
 from datetime import datetime
 from FlaskWebProject1.Models.LocalDatabaseRoutines import create_LocalDatabaseServiceRoutines
 from flask import render_template
@@ -31,7 +31,7 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 
 import pandas as pd
 app.config['SECRET_KEY'] = 'bla bla'
-
+#These are all the routes. Each route creates a separate page for my website.
 @app.route('/')
 @app.route('/home')
 def home():
@@ -83,7 +83,7 @@ def Contact():
 def login():
     form = LoginFormStructure(request.form)
 
-    #if (request.method == 'POST' and form.validate()):
+    #This checks to see if the log in was correct. If it is, it will redirect user to query page, while if incorrect it will tell the user that it entered wrong credentials.
     if (request.method == 'POST'):
         if (db_Functions.IsLoginGood(form.username.data, form.password.data)):
             return redirect('/query')
@@ -102,7 +102,7 @@ def login():
 def register():
     form = RegisterFormStructure(request.form)
 
-    #if (request.method == 'POST' and form.validate()):
+    #this asks the backend to check to see if the user has already been created. If it was, it will say so, and if it was it will add the new user.
     if (request.method == 'POST'):
         if (not db_Functions.IsUserExist(form.username.data)):
             db_Functions.AddNewUser(form)
@@ -120,11 +120,13 @@ def register():
     )
 @app.route('/massShootings', methods=['GET', 'POST'])
 def massShootings():
+    #this helps me check to see if the website has problems reading the file
         form1 = ExpandForm()
         form2 = CollapseForm()
         df = pd.read_csv(path.join(path.dirname(__file__), 'static/data/MassShootingsShort.csv'))
         raw_data_table = ''
 
+        #this is the expand and collapse functions
         if request.method == 'POST':
             if request.form['action'] == 'Expand' and form1.validate_on_submit():
                raw_data_table = df.to_html(classes = 'table table-hover')
@@ -145,6 +147,7 @@ def massShootings():
 
 @app.route('/homicides', methods=['GET', 'POST'])
 def homicides():
+    #this helps me check to see if the website has problems reading the file
         form1 = ExpandForm()
         form2 = CollapseForm()
         print("starting to read csv ... ")
@@ -152,6 +155,7 @@ def homicides():
         print("Done reading csv ")
         raw_data_table = ''
 
+        #this is the expand and collapse functions
         if request.method == 'POST':
             if request.form['action'] == 'Expand' and form1.validate_on_submit():
                 print("try to expand ")
@@ -233,13 +237,13 @@ def query():
     form1 = QueryForm()
     chart = ''
 
-   
+   #reading the data file then selecting a few choices for categories and saving it to a variable.
     df = pd.read_csv(path.join(path.dirname(__file__), 'static/Data/MassShootingsShort.csv'))
     category_list = ['Cause' , 'Gender' , 'Age' , 'Target' , 'Race' , 'Mental Health Issues']
     category_choices = list(zip(category_list,category_list))
     form1.category.choices = category_choices
 
-
+    #this will group the data into the chosen categories and creat a bar chart that shows the selected one.
     if request.method == 'POST':
         category = form1.category.data
         df = df[[category]]
@@ -257,7 +261,7 @@ def query():
         chart = chart
 
     )
-
+#Here function for showing the charts that I make with the queries
 def plot_to_img(fig):
     pngImage = io.BytesIO()
     FigureCanvas(fig).print_png(pngImage)

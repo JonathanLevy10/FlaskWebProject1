@@ -5,7 +5,7 @@
 
 
 <div class="row">
-
+    <!--gives user option to select a category. Also creates submit button--> 
     <div class="col-md-4">
         <form method="post">
             {{ form1.csrf_token }}
@@ -16,6 +16,7 @@
     <div class="col-md-8">
         <div class="row">
             <h4>Mass Shootings by Category</h4>
+            <!-- prints img for chart -->
             <img src={{ chart }} class="img-thumbnail" alt="not found">
         </div>
     </div>
